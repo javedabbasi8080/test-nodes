@@ -1,0 +1,8 @@
+[build]
+  command = "npm install"
+  functions = "functions"
+
+[build.environment]
+  NAME = "javeed"
+  SPOTIFY_CLIENT_ID = "f74bf7ad26c2495aba8f68e8695442c0"
+  SPOTIFY_CLIENT_SECRET = "0327fe9475924d33b15d6727e3c119c2"

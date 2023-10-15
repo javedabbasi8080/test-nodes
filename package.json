@@ -1,0 +1,32 @@
+{
+  "name": "back_end_netly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "netlify-cli": "^12.7.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0",
+    "crawler": "^1.4.0",
+    "disconnect": "^1.2.2",
+    "dotenv-cli": "^7.2.1",
+    "genius-lyrics": "^4.4.3",
+    "google-news-json": "^2.1.0",
+    "nodemon": "^3.0.1",
+    "promise": "^8.3.0",
+    "rss-to-json": "^2.1.1",
+    "spotify-web-api-node": "^5.0.2",
+    "wikijs": "^6.4.1",
+    "wikitext2markdown": "^0.0.1",
+    "ytpl": "^2.3.0"
+  }
+}
